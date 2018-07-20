@@ -44,7 +44,9 @@ h3 {
   flex-direction: row;
 }
 
-
+img {
+  
+}
 img .walrus {
   width: 500px;
   height:300px;
@@ -94,7 +96,7 @@ nav a {
 img {
   display: flex;
   justify-content: left;
-  width: 100px;
+  width: 500px;
 }
 
 
