@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>How deploy</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
+</head>
+
+<body>
+ <!-- navagation  ---------> 
+<header>
+  <div class="top">
+    <div class="nav-bar">
+      <div class="logo">
+        
+   <img class="logo"src="https://sunlightmedia.org/wp-content/uploads/2018/04/1_WNY7IHSxrkhp-x2VledO8A.png" alt="surge logo">
+   <nav>
+    <a href="#">How to Surge</a>
+    <a href="#">Syntex </a>
+    <a href="#">Articles</a>
+   </nav>
+   
+  </div>
+ </div>
+</div>
+<!- main header ---------> 
+
+<section>
+  <h1>How to deploy using Surge</h1>
+   <h3>By Sophie Cogswell - Flatiron School 2018</h3>
+   
+   <div id="container-1">
+     <div class="walrus">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Walrus_-_Kamogawa_Seaworld_-_pup_-1.jpg" alt="">
+       </div>
+     <div class="walrus">
+       <img src="http://a4.pbase.com/o6/62/722262/1/78707303.QbDxcX9L.pbase365.jpg" alt="">
+       </div>
+     <div class="walrus">
+       <img src="https://media.istockphoto.com/photos/walrus-cow-picture-id491603568?k=6&m=491603568&s=612x612&w=0&h=k9Jj2U8QXhOpVnxxuK24ShvX_GA621UoXJTcdV6Wde8=" alt="">
+       </div>
+   </div>
+   
+   
+  <div class="video">
+   <iframe width="100%" height="500px" src="https://www.youtube.com/embed/-EjdMvYPSVU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ </div>  
+ 
+  </section>
+</header> 
+  
+  <!-step by step   ---------> 
+  
+<article>
+  <h2>STATE HOW TO FIND A LIST OF SURGE COMMANDS</h2>
+  
+  <div class=steps-container>
+    <ol>
+      <li>Surge provides a piece of software called surge. It is already installed on the Flatiron in-browser IDE. You can try it out by typing surge in the terminal.</li>
+      <br>
+      <li>To find out more of the commands you can use with Surge, type surge --help.</li>
+      <br>
+      <li>A portion of the surge --help output</li>
+      <br>
+      <li>The most important line is the Usage: line.
+          This line means: type in surge, a "project" (directory) you wish to deploy on your system, and the "Surge domain" that you'd like to use. It just so happens that typing surge, as we did above, means: surge this-directory get-me-a-new-domain-name</li>
+    </ol>
+  </div>
+  
+  <h2>STATE THE SYNTAX FOR DEPLOYING WITH SURGE</h2>
+  <div class=steps-container>
+    <ol>
+      <li>Let's create a simple site for surge to deploy. In the in-browser IDE, I'll create a directory called test-surge that has a simple index.html file and a simple style.css file. I'll then use httpserver to test out my files. You can copy and paste these files into the in-browser IDE, if you like.</li>
+      <br>
+      <li>With httpserver running, we can visit our site: http://174.138.35.103:38808/test-surge</li>
+      <br>
+      <li>Let's suppose that we're happy with this (very-)purple site and decide that we want to share it with the world. To do so with Surge, do the following</li>
+      <br>
+       <ul>
+         <li>End httpserver with <strong>Control + c,</strong> if required</li>
+         <li>Change into the test-surge directory: <strong>cd test-surge</strong></li>
+         <li>Type surge</li>
+         <li>Since we're in the test-surge directory, <strong>Surge asks if that's what we want to deploy</strong>. It is. So we hit Enter</li>
+         <li>Surge creates a site name, in this case, called witty-range.surge.sh. This seems good enough.So hit Enter</li>
+         <li>surge client <strong>uploads</strong> the site to Surge</li>
+         <li><strong>Open up</strong> witty-range.surge.sh in a browser tab</li>
+       </ul>
+       <br>
+       <li>Our site is now live on the real-deal internet. We could text this to a friend and have them see our (very-)purple creation.</li>
+    </ol>
+  </div>  
+</article>
+
+<!-- links  --------->
+
+<aside>
+  <h2>Articles for more help</h2>
+  <div class="container">
+   
+  <span class="box text"><a href="https://medium.com/surge-sh/make-something-of-your-ridiculous-domains-bb26fadeb93c">Make something of your ridiculous domains
+  </a></span>
+  
+  
+  <span class="box text"><a href="http://cogdogblog.com/2015/05/with-surge/">Preclaiming A Web Site With Surge
+  </a></span>
+  
+  <span class="box text"><a href="https://www.linkedin.com/pulse/why-surgesh-awesome-you-should-consider-using-dur%C3%A1n-garc%C3%ADa">Why Surge.sh is awesome and you should consider using it?
+  </a>
+  </span>
+  </div>
+ 
+</aside>
+
+<!- Footer --------->
+
+<footer>
+   <nav class="foot-nav">
+     <a href="https://surge.sh/">surge.sh</a> 
+     <div class="foot">
+   <p>© 2016 sophie cogswell. All rights reserved</p>
+   </nav>
+  </div>
+</footer>
+
+ </body>
+</html>
+
+
+<!-how-to-deploy-walrus-18.surge.sh --->
