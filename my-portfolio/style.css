@@ -5,6 +5,10 @@ body{
   background-color: #e2f0e8;
 }
 
+.logo{
+  width:200px;
+}
+
 header{
   align-items: center;
 }
