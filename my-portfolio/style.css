@@ -3,9 +3,11 @@
 body{
   font-family: 'Open Sans Condensed', sans-serif;
   background-color: #e2f0e8;
-  font-size: 14px;
 }
 
+li {
+   font-size: 14px;
+}
 .logo img {
   width: 300px;
   height:200px;
