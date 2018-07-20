@@ -58,7 +58,7 @@ h3 {
 
 span {
   color: white;
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
 }
 
@@ -123,9 +123,6 @@ article {
 
 /* links  ------------*/
 
-.surge-img {
-  
-}
 
 .box {
   background-color: #404040;
